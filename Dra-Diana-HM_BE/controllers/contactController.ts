@@ -2,7 +2,7 @@
 // This controller handles contact form submissions
 import { Router } from 'express';
 import nodemailer from 'nodemailer';
-import { db } from '../db/connect';
+//import { db } from '../db/connect';
 
 const contactRouter = Router();
 
@@ -15,8 +15,8 @@ contactRouter.post('/', async (req, res) => {
 
   try {
     // 1. Guardar en MongoDB (colección 'contacts')
-    const contactsCollection = db.collection('contacts');
-    await contactsCollection.insertOne({ name, email, message, date: new Date() });
+    /*const contactsCollection = db.collection('contacts');
+    await contactsCollection.insertOne({ name, email, message, date: new Date() });*/
 
     // 2. Enviar email con nodemailer
     const transporter = nodemailer.createTransport({
@@ -29,8 +29,8 @@ contactRouter.post('/', async (req, res) => {
 
     const mailOptions = {
       from: email, // correo del visitante
-      to: process.env.EMAIL_USER, // tu correo Gmail que recibe el mensaje
-      subject: `[Metodika] Nuevo mensaje de ${name}`,
+      to: process.env.EMAIL_CLIENT_USER,  // tu correo Gmail que recibe el mensaje
+      subject: `[Website] Nuevo mensaje de ${name}`,
       text: `Nombre: ${name}\nEmail: ${email}\nMensaje:\n${message}`,
     };
 

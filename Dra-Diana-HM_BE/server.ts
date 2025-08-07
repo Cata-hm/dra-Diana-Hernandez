@@ -6,8 +6,8 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import contactRoutes from './routes/contactRoutes';
-import { connectToDB } from './db/connect';
-import adminRouter from './routes/adminRoutes';
+//import { connectToDB } from './db/connect';
+//import adminRouter from './routes/adminRoutes';
 
 // Configuración del servidor
 const app = express();
@@ -18,13 +18,9 @@ app.use(express.json());
 
 // Rutas
 app.use('/api', contactRoutes);
-app.use('/api/admin', adminRouter);
+//app.use('/api/admin', adminRouter);
 
-// Conexión a la DB y arranque del servidor
-connectToDB().then(() => {
+// Conexión a la DB y arranque del servido
   app.listen(PORT, () => {
-    console.log(`🚀 Server running at http://localhost:${PORT}`);
-  });
-}).catch(() => {
-  console.log('❌ Failed to start server due to DB error');
+  console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
