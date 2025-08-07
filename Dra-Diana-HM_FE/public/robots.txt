@@ -1,6 +1,0 @@
-# Este archivo indica a los bots qué rutas rastrear o no
-
-User-agent: *
-Disallow: /admin
-Allow: /
-Sitemap: https://metodical.com/sitemap.xml
