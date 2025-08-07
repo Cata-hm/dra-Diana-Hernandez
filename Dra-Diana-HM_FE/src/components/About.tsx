@@ -13,7 +13,7 @@ const About = () => {
         
         {/* Nueva imagen rectangular */}
         <motion.img
-          src="/images/profile2.jpg"
+          src="/images/profile1.jpg"
           alt="Catalina Hernández"
           className="w-full max-w-sm rounded-2xl shadow-xl object-cover bg-gradient"
           initial={{ opacity: 0, x: -50 }}
@@ -34,7 +34,7 @@ const About = () => {
             {t('about.title')}
           </h3>
           <p className="text-lg leading-relaxed text-metallic text-justify">
-            <Trans i18nKey="about.paragraph1" values={{ name: 'Catalina Hernández Mejía' }} components={{ strong: <strong className="font-semibold text-gradient-nohover" /> }} />
+            <Trans i18nKey="about.paragraph1" values={{ name: 'Diana Hernández Mejía' }} components={{ strong: <strong className="font-semibold text-gradient-nohover" /> }} />
           </p>
           <p className="text-lg leading-relaxed mt-4 text-metallic text-justify">
             {t('about.paragraph2')}
@@ -55,7 +55,7 @@ const About = () => {
             >
               <Trans
                 i18nKey="about.paragraph6"
-                values={{ name: 'LinkedIn' }}
+                values={{ name: 'Instagram' }}
                 components={{ strong: <strong className="font-semibold text-gradient-nohover"/> }}
               />
             </a>

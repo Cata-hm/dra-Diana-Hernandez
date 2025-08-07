@@ -35,7 +35,6 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2 ml-10">
-          <img src="/favicon.ico" alt="Logo" className="h-6" />
           {/* Brand name */}
           <h1 className="text-xl font-bold tracking-wide text-gradient-nohover">
             {BRAND_NAME}

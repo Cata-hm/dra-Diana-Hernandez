@@ -1,90 +1,61 @@
 {
   "hero": {
-    "title": "Gestión Profesional de Proyectos en Diversas Industrias",
-    "subtitle": "Optimización de procesos, liderazgo de equipos y entrega de resultados eficientes en TI, Construcción, Marketing, Finanzas y más.",
-    "button": "Contáctame"
+  "title": "Rehabilitación Oral y Estética Dental Profesional",
+  "subtitle": "Mejora tu salud bucal y recupera la confianza en tu sonrisa con tratamientos personalizados en prótesis, diseño de sonrisa y limpieza dental.",
+  "button": "Reservar cita"
   },
   "about": {
-    "title": "Sobre mí",
-    "paragraph1": "Hola, soy <strong>{{name}}</strong>, Ingeniera Civil especializada en Gestión de Proyectos con pasión por impulsar la innovación y la eficiencia en diversas industrias.",
-    "paragraph2": "A lo largo de los años, he desarrollado amplia experiencia liderando proyectos complejos no solo en construcción, sino también en campos como TI, marketing, servicios financieros y educación. Me especializo en implementar automatización de procesos y entregar insights visuales basados en datos utilizando herramientas como Power BI y Power Apps. Mi objetivo es optimizar flujos de trabajo, mejorar la toma de decisiones y generar resultados medibles, independientemente de la industria.",
-    "paragraph3": "Fundé <strong>{{name}}</strong> con la visión de ayudar a las empresas a optimizar sus procesos, mejorar la colaboración en equipo y lograr resultados medibles mediante metodologías estructuradas y efectivas de gestión de proyectos.",
-    "paragraph4": "Estoy comprometida con el aprendizaje continuo y mantenerme actualizada con las últimas tecnologías y tendencias del sector para brindar soluciones innovadoras adaptadas a las necesidades únicas de cada cliente.",
-    "paragraph5": "Conoce más sobre mí en",
-    "paragraph6": "mi perfil de <strong>{{name}}</strong>"
+  "title": "Sobre mí",
+  "paragraph1": "Hola, soy la Dra. <strong>{{name}}</strong>, odontóloga y especialista en rehabilitación oral y estética dental. Me dedico a mejorar la salud bucal y la confianza de mis pacientes a través de tratamientos personalizados y de alta calidad.",
+  "paragraph2": "Cuento con amplia experiencia en el diseño de sonrisas, la colocación de prótesis dentales y la realización de limpiezas profundas, siempre enfocándome en lograr resultados funcionales y estéticos que mejoren la calidad de vida de cada persona.",
+  "paragraph3": "Trabajo desde mi propio consultorio, un espacio moderno y cómodo donde cada paciente recibe atención personalizada, basada en sus necesidades específicas y con un enfoque integral en su bienestar oral.",
+  "paragraph4": "Mi compromiso es brindar un servicio humano, ético y profesional, utilizando técnicas actualizadas y tecnología de vanguardia para lograr sonrisas sanas, armónicas y naturales.",
+  "paragraph5": "Conoce más sobre mí en",
+  "paragraph6": "mi perfil de <strong>{{name}}</strong>"
   },
   "services": {
-    "title": "Servicios",
-    "items": {
-      "projectManagement": {
-        "title": "Gestión de Proyectos en Diversas Industrias",
-        "description": "Ofrezco soluciones personalizadas de gestión de proyectos para los sectores de TI, Construcción, Marketing, Consultoría Financiera y Educación. Garantizo la entrega a tiempo, dentro del presupuesto y alineada con los objetivos del negocio."
-      },
-      "automation": {
-        "title": "Automatización y Optimización de Procesos",
-        "description": "Diseño e implemento flujos de trabajo, automatizaciones y árboles de decisión que optimizan operaciones y reducen esfuerzos manuales, utilizando herramientas como Power BI, Power Apps y Power Automate."
-      },
-      "teamLeadership": {
-        "title": "Liderazgo y Colaboración de Equipos",
-        "description": "Gestiono equipos multidisciplinarios, coordino desarrolladores internos y externos, y fomento la comunicación clara entre los interesados para garantizar el éxito del proyecto."
-      },
-      "consulting": {
-        "title": "Consultoría Técnica e Integración",
-        "description": "Recomiendo soluciones tecnológicas e integro APIs, plataformas y herramientas que se ajustan a los requerimientos del proyecto, equilibrando la viabilidad técnica y los objetivos del negocio."
-      }
+  "title": "Servicios",
+  "items": {
+    "oralRehabilitation": {
+      "title": "Rehabilitación Oral",
+      "description": "Restauración de la función y la estética mediante tratamientos personalizados que mejoran la masticación, el habla y la apariencia, utilizando prótesis y técnicas odontológicas avanzadas."
+    },
+    "dentalAesthetics": {
+      "title": "Estética Dental",
+      "description": "Mejora de la apariencia de tu sonrisa con tratamientos como blanqueamientos, carillas y restauraciones estéticas adaptadas a la armonía de tu rostro."
+    },
+    "preventiveCare": {
+      "title": "Cuidado Dental Preventivo",
+      "description": "Mantenimiento de una salud bucal óptima a través de diagnósticos tempranos, limpiezas regulares y educación sobre rutinas de higiene diarias."
+    },
+    "prosthodontics": {
+      "title": "Prostodoncia",
+      "description": "Diseño y colocación de prótesis dentales de alta calidad para reemplazar piezas ausentes y restaurar la función y estética natural."
     }
+  }
   },
   "carousel": {
     "keywords": [
-      "AUTOMATIZACIÓN",
-      "SCRUM",
-      "INTERESADOS",
-      "TI",
-      "CONSTRUCCIÓN",
-      "MARKETING",
-      "EDUCACIÓN",
-      "INTEGRACIONES",
-      "OPTIMIZACIÓN",
-      "ÁGIL",
-      "PLANIFICACIÓN",
-      "GESTIÓN DE PROYECTOS",
-      "FLUJOS DE TRABAJO",
-      "CONSULTORÍA",
-      "FINANZAS"
+      "PRÓTESIS",
+      "REHABILITACIÓN ORAL",
+      "ESTÉTICA DENTAL",
+      "DISEÑO DE SONRISA",
+      "LIMPIEZA DENTAL",
+      "CUIDADO BUCAL",
+      "BLANQUEAMIENTO",
+      "CARILLAS",
+      "IMPLANTES",
+      "ODONTOLOGÍA",
+      "PREVENCIÓN",
+      "SALUD ORAL",
+      "RESTAURACIONES",
+      "PROSTODONCIA",
+      "TRATAMIENTOS PERSONALIZADOS"
     ]
   },
   "tools": {
-    "title": "Herramientas que usamos",
-    "subtitle": "Un moderno conjunto de tecnologías para optimizar la gestión de proyectos, el desarrollo y el diseño.",
-    "Project Management & Collaboration": "Gestión de Proyectos y Colaboración",
-    "Microsoft Office & Power Platform": "Microsoft Office y Power Platform",
-    "Development / Web Technologies": "Desarrollo / Tecnologías Web",
-    "Design & Other": "Diseño y Otros",
-    "microsoft_project": "Microsoft Project",
-    "trello": "Trello",
-    "jira": "Jira",
-    "monday": "Monday.com",
-    "slack": "Slack",
-    "microsoft_teams": "Microsoft Teams",
-    "zoom": "Zoom",
-    "loom": "Loom",
-    "excel": "Excel",
-    "word": "Word",
-    "power_apps": "Power Apps",
-    "power_bi": "Power BI",
-    "github": "GitHub",
-    "html": "HTML",
-    "css": "CSS",
-    "react": "React",
-    "javascript": "JavaScript",
-    "nodejs": "Node.js",
-    "vite": "Vite",
-    "cloudflare": "Cloudflare",
-    "railway": "Railway",
-    "figma": "Figma",
-    "google_workspace": "Google Workspace",
-    "autocad": "AutoCAD",
-    "looker_studio": "Looker Studio"
+    "title": "Conoce Mi Consultorio",
+    "subtitle": "Un recorrido visual por las instalaciones y espacios dedicados a tu salud bucal."
   },
   "testimonials": {
     "title": "Testimonios",
@@ -130,7 +101,7 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados",
-    "designed": "Diseñado y gestionado con pasión"
+    "designed": "Diseñado y gestionado con pasión por"
   }
 }
 

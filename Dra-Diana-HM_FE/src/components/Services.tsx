@@ -6,23 +6,23 @@ import { useTranslation } from 'react-i18next';
 
 const servicesData = [
   {
-    titleKey: 'services.items.projectManagement.title',
-    descriptionKey: 'services.items.projectManagement.description',
+    titleKey: 'services.items.oralRehabilitation.title',
+    descriptionKey: 'services.items.oralRehabilitation.description',
     borderColor: 'from-[#4A90E2] to-[#6BCBFF]',
   },
   {
-    titleKey: 'services.items.automation.title',
-    descriptionKey: 'services.items.automation.description',
+    titleKey: 'services.items.dentalAesthetics.title',
+    descriptionKey: 'services.items.dentalAesthetics.description',
     borderColor: 'from-[#8E8FFA] to-[#D1C4FF]',
   },
   {
-    titleKey: 'services.items.teamLeadership.title',
-    descriptionKey: 'services.items.teamLeadership.description',
+    titleKey: 'services.items.preventiveCare.title',
+    descriptionKey: 'services.items.preventiveCare.description',
     borderColor: 'from-[#6DD5FA] to-[#A1E3FF]',
   },
   {
-    titleKey: 'services.items.consulting.title',
-    descriptionKey: 'services.items.consulting.description',
+    titleKey: 'services.items.prosthodontics.title',
+    descriptionKey: 'services.items.prosthodontics.description',
     borderColor: 'from-[#A7C7E7] to-[#E0F7FF]',
   },
 ];
@@ -70,11 +70,11 @@ const Services = () => {
               key={index}
               variants={itemVariants}
               className="relative group p-[2px] rounded-3xl 
-                         bg-gradient-nohover
+                         bg-gradient
                          shadow-[0_0_15px_rgba(167,139,250,0.3)] hover:shadow-[0_0_25px_rgba(167,139,250,0.5)] transition-shadow duration-300"
             >
               <div className="bg-black rounded-3xl p-8 h-full">
-                <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient-hover bg-clip-text text-transparent">
+                <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient bg-clip-text text-transparent">
                   {t(titleKey)}
                 </h4>
                 <p className="text-gray-300 text-base leading-relaxed">

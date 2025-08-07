@@ -1,90 +1,61 @@
 {
   "hero": {
-    "title": "Professional Project Management Across Industries",
-    "subtitle": "Process optimization, team leadership, and delivering efficient results across IT, Construction, Marketing, Finance, and more.",
-    "button": "Contact Me"
+  "title": "Professional Oral Rehabilitation and Dental Aesthetics",
+  "subtitle": "Improve your oral health and restore confidence in your smile with personalized treatments in prosthetics, smile design, and dental cleanings.",
+  "button": "Book Appointment"
   },
   "about": {
-    "title": "About Me",
-    "paragraph1": "Hello, I’m <strong>{{name}}</strong>, a Civil Engineer specialized in Project Management with a passion for driving innovation and efficiency across diverse industries.",
-    "paragraph2": "Over the years, I have developed extensive experience leading complex projects not only in construction, but also in fields like IT, marketing, financial services, and education. I specialize in implementing process automation and delivering data-driven visual insights using tools such as Power BI and Power Apps. My goal is to optimize workflows, improve decision-making, and drive measurable results — regardless of the industry.",
-    "paragraph3": "I founded <strong>{{name}}</strong> with the vision of helping companies optimize their processes, improve team collaboration, and achieve measurable results through structured and effective project management methodologies.",
-    "paragraph4": "I am committed to continuous learning and staying updated with the latest technologies and industry trends to provide innovative solutions tailored to each client’s unique needs.",
-    "paragraph5": "Learn more about me on",
-    "paragraph6": "my <strong>{{name}}</strong> profile"
+  "title": "About Me",
+  "paragraph1": "Hi, I’m Dr. <strong>{{name}}</strong>, a dentist and prosthodontist specializing in oral rehabilitation and dental aesthetics. My mission is to help patients improve their oral health and feel confident about their smiles through personalized and high-quality care.",
+  "paragraph2": "I have extensive experience in smile design, dental prosthetics, and deep cleanings, always aiming for functional and aesthetic results that enhance each person’s quality of life.",
+  "paragraph3": "I work from my own dental office, a modern and welcoming space where every patient receives personalized attention tailored to their specific needs, with a comprehensive focus on oral well-being.",
+  "paragraph4": "My commitment is to provide ethical, human-centered, and professional care, using the latest techniques and technology to achieve healthy, natural, and harmonious smiles.",
+  "paragraph5": "Learn more about me on",
+  "paragraph6": "my <strong>{{name}}</strong> profile"
   },
   "services": {
-    "title": "Services",
-    "items": {
-      "projectManagement": {
-        "title": "Project Management Across Industries",
-        "description": "Offering tailored project management solutions for IT, Construction, Marketing, Financial Consulting, and Education sectors. I ensure projects are delivered on time, within budget, and aligned with business objectives."
-      },
-      "automation": {
-        "title": "Process Automation and Optimization",
-        "description": "Designing and implementing workflows, automations, and decision trees that optimize operations and reduce manual effort, using tools like Power BI, Power Apps, and Power Automate."
-      },
-      "teamLeadership": {
-        "title": "Team Leadership and Collaboration",
-        "description": "Managing multidisciplinary teams, coordinating internal and external developers, and fostering clear communication among stakeholders to ensure project success."
-      },
-      "consulting": {
-        "title": "Technical Consulting and Integration",
-        "description": "Recommending technology solutions and integrating APIs, platforms, and tools that fit project requirements, balancing technical feasibility with business objectives."
-      }
+  "title": "Services",
+  "items": {
+    "oralRehabilitation": {
+      "title": "Oral Rehabilitation",
+      "description": "Restoring function and aesthetics through personalized treatments that improve chewing, speech, and appearance, using prostheses and advanced dental techniques."
+    },
+    "dentalAesthetics": {
+      "title": "Dental Aesthetics",
+      "description": "Enhancing the appearance of your smile with treatments such as teeth whitening, veneers, and aesthetic restorations tailored to your facial harmony."
+    },
+    "preventiveCare": {
+      "title": "Preventive Dental Care",
+      "description": "Helping you maintain optimal oral health through early diagnosis, regular cleanings, and education on daily hygiene routines."
+    },
+    "prosthodontics": {
+      "title": "Prosthodontics",
+      "description": "Designing and placing high-quality dental prostheses to replace missing teeth and restore natural function and aesthetics."
     }
+  }
   },
   "carousel": {
     "keywords": [
-      "AUTOMATION",
-      "SCRUM",
-      "STAKEHOLDERS",
-      "IT",
-      "CONSTRUCTION",
-      "MARKETING",
-      "EDUCATION",
-      "INTEGRATIONS",
-      "OPTIMIZATION",
-      "AGILE",
-      "PLANNING",
-      "PROJECT MANAGEMENT",
-      "WORKFLOWS",
-      "CONSULTING",
-      "FINANCE"
+      "PROSTHETICS",
+      "ORAL REHABILITATION",
+      "DENTAL AESTHETICS",
+      "SMILE DESIGN",
+      "DENTAL CLEANING",
+      "ORAL CARE",
+      "TEETH WHITENING",
+      "VENEERS",
+      "IMPLANTS",
+      "DENTISTRY",
+      "PREVENTION",
+      "ORAL HEALTH",
+      "RESTORATIONS",
+      "PROSTHODONTICS",
+      "PERSONALIZED TREATMENTS"
     ]
   },
   "tools": {
-    "title": "Tools We Use",
-    "subtitle": "A modern stack to optimize project management, development and design.",
-    "Project Management & Collaboration": "Project Management & Collaboration",
-    "Microsoft Office & Power Platform": "Microsoft Office & Power Platform",
-    "Development / Web Technologies": "Development / Web Technologies",
-    "Design & Other": "Design & Other",
-    "microsoft_project": "Microsoft Project",
-    "trello": "Trello",
-    "jira": "Jira",
-    "monday": "Monday.com",
-    "slack": "Slack",
-    "microsoft_teams": "Microsoft Teams",
-    "zoom": "Zoom",
-    "loom": "Loom",
-    "excel": "Excel",
-    "word": "Word",
-    "power_apps": "Power Apps",
-    "power_bi": "Power BI",
-    "github": "GitHub",
-    "html": "HTML",
-    "css": "CSS",
-    "react": "React",
-    "javascript": "JavaScript",
-    "nodejs": "Node.js",
-    "vite": "Vite",
-    "cloudflare": "Cloudflare",
-    "railway": "Railway",
-    "figma": "Figma",
-    "google_workspace": "Google Workspace",
-    "autocad": "AutoCAD",
-    "looker_studio": "Looker Studio"
+    "title": "Explore My Clinic",
+    "subtitle": "A visual tour of the facilities and spaces dedicated to your oral health."
   },
   "testimonials": {
     "title": "Testimonials",
@@ -130,6 +101,6 @@
   },
   "footer": {
     "rights": "All rights reserved",
-    "designed": "Designed & Managed with passion"
+    "designed": "Designed & Managed with passion by"
   }
 }

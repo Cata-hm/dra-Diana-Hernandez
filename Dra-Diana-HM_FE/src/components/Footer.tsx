@@ -1,7 +1,7 @@
 // src/components/Footer.tsx
 // This component renders the footer of the application.
 import { useTranslation } from 'react-i18next';
-import { BRAND_NAME } from '../config/constants';
+import { BRAND_NAME, DEVELOPER_NAME } from '../config/constants';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -12,14 +12,14 @@ const Footer = () => {
         © {new Date().getFullYear()}{' '}
         <span
           className="font-semibold bg-gradient
-                     bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(180,100,255,0.9)]"
+                     bg-clip-text text-transparent"
         >
           {BRAND_NAME}
         </span>{' '}
         — {t('footer.rights')}
       </p>
       <p className="text-white font-medium flex justify-center items-center gap-1 select-text">
-        {t('footer.designed')}{' '}
+        {t('footer.designed')}<strong className="bg-gradient bg-clip-text text-transparent">{DEVELOPER_NAME}</strong>{' '}
         <span role="img" aria-label="heart" className="drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]">
           ❤️
         </span>
