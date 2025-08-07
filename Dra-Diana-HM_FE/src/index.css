@@ -1,0 +1,19 @@
+/* src/index.css */
+/* This file contains global styles for the Methodika application, including Tailwind CSS imports and
+   custom styles for smooth scrolling and scrollbar hiding. */
+@import "tailwindcss";
+
+/* Opcional: animaciones suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🔒 Oculta la barra de desplazamiento horizontal */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}

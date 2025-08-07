@@ -1,0 +1,238 @@
+/* src/App.css */
+/* Global styles for Metodika with dark theme and iridescent metallic highlights */
+
+:root {
+  --gradient-metal: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  --bg-dark: #000000;
+  --text-metallic: #d1d5db;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-metallic);
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+/* Logo Styles ---------------------------------------*/
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms, transform 300ms;
+  filter: drop-shadow(0 0 1em rgba(255, 255, 255, 0.2));
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #f472b6aa);
+  transform: scale(1.05);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Cards --------------------------------------------------*/
+.card {
+  padding: 2em;
+  background-color: #111827; /* slightly lighter than black */
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(167, 139, 250, 0.2);
+  border: 1px solid transparent;
+  background-image: linear-gradient(#111827, #111827), var(--gradient-metal);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* Gradient text utility without hover */
+.text-gradient-nohover {
+  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient text utility ---------------------------------*/
+.text-gradient {
+  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient:hover {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: white !important;
+  background-clip: text; 
+  color: white !important;
+}
+
+.text-gradient-black {
+  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient-black:hover {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: black !important;
+  background-clip: text; 
+  color: black !important;
+}
+
+/* Borde negro ---------------------------------------*/
+.border-black {
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: transparent; /* texto transparente para gradiente */
+  background-image: var(--gradient-metal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+
+.border-black::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  padding: 2px; /* grosor del borde */
+  background: var(--gradient-metal);
+  mask-composite: exclude;
+  mask:
+  linear-gradient(#fff 0 0) content-box,
+  linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  pointer-events: none;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.border-black:hover {
+  color: black; /* texto negro en hover */
+  background-image: none;
+  -webkit-text-fill-color: initial;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: black; /* fondo negro en hover */
+}
+
+.border-black:hover::before {
+  background: black; /* borde negro al hacer hover */
+}
+
+
+/* Border gradient utility ------------------------------------------------*/
+.border-gradient {
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: transparent; /* texto transparente para gradiente */
+  background-image: var(--gradient-metal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+
+.border-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  padding: 2px; /* grosor del borde */
+  background: var(--gradient-metal);
+  mask-composite: exclude;
+  mask:
+  linear-gradient(#fff 0 0) content-box,
+  linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  pointer-events: none;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.border-gradient:hover {
+  color: rgb(245, 245, 245); /* texto blanco en hover */
+  background-image: none;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
+  -webkit-background-clip: initial;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  background-color: rgb(245, 245, 245); /* fondo en hover */
+}
+
+.border-gradient:hover::before {
+  background: rgb(245, 245, 245); /* ocultamos borde gradiente al hacer hover */
+}
+
+
+/* Background gradient utility --------------------------------------------*/
+.bg-gradient {
+  background-image: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+}
+
+/* Button styling ---------------------------------------------------------*/
+.button-metal {
+  background-color: black; /* fondo negro inicial */
+  border: 2px solid black;
+  border-image: black 1; /* borde negro */
+  color: var(--text-metallic); /* texto claro */
+  padding: 0.5em 1.5em;
+  border-radius:  0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button-metal:hover {
+  background-color: rgb(245, 245, 245); /* fondo blanco en hover */
+  color: black; /* texto negro en hover */
+  border-radius:  0.5rem; /* mantener bordes redondeados */
+  border-image: rgb(245, 245, 245) 1; /* mantener borde blanco */
+  border-color: rgb(245, 245, 245);
+}
+
+/* Documentation link --------------------------------------------------------*/
+.read-the-docs {
+  color: #aaa;
+  font-style: italic;
+}

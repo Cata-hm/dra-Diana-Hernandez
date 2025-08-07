@@ -1,0 +1,65 @@
+<!--
+  Metodik_FE/index.html
+  This is the main HTML file for the Metodika application.
+  It includes the necessary meta tags, links to stylesheets, and the root element for React
+  to render the application. The favicon has been updated to match the application's color palette.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Prevent automatic dark mode on some mobile browsers -->
+    <meta name="color-scheme" content="light" />
+
+    <!-- Meta tags for iOS web app -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Metodical</title>
+    <meta name="description" content="Project management and process automation services for startups and businesses. Metodical helps you achieve efficient results in English and Spanish." />
+
+    <!-- ✅ Canonical URL for SEO -->
+    <link rel="canonical" href="https://metodical.com/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Structured Data for Google (Organization + Logo) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Metodical",
+      "url": "https://www.metodical.com/",
+      "logo": "https://www.metodical.com/apple-touch-icon.png"
+    }
+    </script>
+
+    <!-- 🧠 Previene que el navegador recuerde el scroll -->
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JVHJNH20L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9JVHJNH20L');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
