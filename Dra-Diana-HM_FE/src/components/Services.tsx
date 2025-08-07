@@ -71,7 +71,7 @@ const Services = () => {
               variants={itemVariants}
               className="relative group p-[2px] rounded-3xl 
                          bg-gradient
-                         shadow-[0_0_15px_rgba(167,139,250,0.3)] hover:shadow-[0_0_25px_rgba(167,139,250,0.5)] transition-shadow duration-300"
+                         shadow-[0_0_15px_rgba(167,139,250,0.3)] hover:shadow-[#1565C0] transition-shadow duration-300"
             >
               <div className="bg-neutral-200 rounded-3xl p-8 h-full">
                 <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient bg-clip-text text-transparent">

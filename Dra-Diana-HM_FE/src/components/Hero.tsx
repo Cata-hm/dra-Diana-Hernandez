@@ -17,8 +17,8 @@ const Hero = () => {
   return (
     <section
       ref={ref}
-      className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 text-white bg-cover bg-center"
-      style={{ backgroundImage: `url('/images/profile2.jpg')` }}
+      className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 text-white bg-cover"
+      style={{ backgroundImage: `url('/images/profile2.jpg')`, backgroundPosition: 'center 40%',}}
     >
       {/* Overlay oscuro para que el texto se vea mejor */}
       <div className="absolute inset-0 bg-black opacity-50"></div>

@@ -67,7 +67,7 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder={t('contact.namePlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-neutral-900 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.name}
             onChange={handleChange}
             required
@@ -77,7 +77,7 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder={t('contact.emailPlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-neutral-900 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.email}
             onChange={handleChange}
             required
@@ -86,7 +86,7 @@ const Contact = () => {
           <textarea
             name="message"
             placeholder={t('contact.messagePlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white h-36 resize-none focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-neutral-900 h-36 resize-none focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.message}
             onChange={handleChange}
             required
@@ -106,7 +106,7 @@ const Contact = () => {
                 ? 'text-green-400'
                 : status === t('contact.status.error') || status === t('contact.status.serverError')
                 ? 'text-red-400'
-                : 'text-yellow-300'
+                : 'text-neutral-900'
             } drop-shadow-lg font-semibold`}
           >
             {status}
