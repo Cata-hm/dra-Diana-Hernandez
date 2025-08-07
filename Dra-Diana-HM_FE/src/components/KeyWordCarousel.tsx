@@ -39,10 +39,10 @@ const KeywordCarousel = () => {
         ref={containerRef}
         className="hide-scrollbar whitespace-nowrap flex space-x-8 px-8 py-6 overflow-x-scroll items-baseline"
       >
-        {[...keywords, ...keywords].map((keyword, index) => (
+        {[...keywords, ...keywords].map((keyword, index, keywordArray) => (
           <span key={index} className="inline-flex items-center cursor-default select-none">
             <div
-              className="border-black text-2xl text-gradient-black sm:text-4xl font-extrabold whitespace-nowrap transition-transform duration-300 hover:scale-105"
+              className=" text-2xl text-gradient-black sm:text-4xl font-extrabold whitespace-nowrap transition-transform duration-300 hover:scale-105"
               style={{
                 background: '.text-gradient-nohover',
                 WebkitBackgroundClip: 'text',
@@ -53,6 +53,10 @@ const KeywordCarousel = () => {
             >
               {keyword}
             </div>
+            {/* Mostrar guion solo si NO es el último */}
+            {index < keywordArray.length - 1 && (
+              <span className="ml-8 text-gray-400 text-3xl select-none">-</span>
+            )}
           </span>
         ))}
       </div>

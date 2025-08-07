@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16 px-6 bg-black text-white"
+      className="py-16 px-6 bg-neutral-200 text-gray-900"
     >
       <div className="max-w-3xl mx-auto text-center">
         <motion.h3
@@ -67,7 +67,7 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder={t('contact.namePlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-[#1E293B] placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.name}
             onChange={handleChange}
             required
@@ -77,7 +77,7 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder={t('contact.emailPlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-[#1E293B] placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.email}
             onChange={handleChange}
             required
@@ -86,7 +86,7 @@ const Contact = () => {
           <textarea
             name="message"
             placeholder={t('contact.messagePlaceholder')}
-            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-[#1E293B] placeholder-[#8CA0B3] text-white h-36 resize-none focus:outline-none focus:ring-2 focus:ring-purple-500 transition-shadow duration-300"
+            className="w-full p-4 rounded-lg border border-[#5A6B8A] bg-neutral-200 placeholder-[#8CA0B3] text-white h-36 resize-none focus:outline-none focus:ring-2 focus:ring-blue-600 transition-shadow duration-300"
             value={formData.message}
             onChange={handleChange}
             required

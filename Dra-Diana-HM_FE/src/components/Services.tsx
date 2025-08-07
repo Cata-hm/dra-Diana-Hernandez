@@ -73,11 +73,11 @@ const Services = () => {
                          bg-gradient
                          shadow-[0_0_15px_rgba(167,139,250,0.3)] hover:shadow-[0_0_25px_rgba(167,139,250,0.5)] transition-shadow duration-300"
             >
-              <div className="bg-black rounded-3xl p-8 h-full">
+              <div className="bg-neutral-200 rounded-3xl p-8 h-full">
                 <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient bg-clip-text text-transparent">
                   {t(titleKey)}
                 </h4>
-                <p className="text-gray-300 text-base leading-relaxed">
+                <p className="text-gray-900 text-base leading-relaxed">
                   {t(descriptionKey)}
                 </p>
               </div>

@@ -3,7 +3,7 @@
 
 :root {
   --gradient-metal: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
-  --bg-dark: #000000;
+  --bg-dark: #4b5563;
   --text-metallic: #d1d5db;
 }
 
@@ -96,9 +96,9 @@ body {
 .text-gradient-black:hover {
   background: none !important;
   -webkit-background-clip: initial !important;
-  -webkit-text-fill-color: black !important;
+  -webkit-text-fill-color: #111827 !important;
   background-clip: text; 
-  color: black !important;
+  color: #111827 !important;
 }
 
 /* Borde negro ---------------------------------------*/
@@ -224,8 +224,8 @@ body {
 
 /* Button styling ---------------------------------------------------------*/
 .button-metal {
-  background-color: black; /* fondo negro inicial */
-  border: 2px solid black;
+  background-color: rgb(245, 245, 245); /* fondo negro inicial */
+  border: 2px solid rgb(245, 245, 245);
   border-image: black 1; /* borde negro */
   color: var(--text-metallic); /* texto claro */
   padding: 0.5em 1.5em;
@@ -235,11 +235,11 @@ body {
 }
 
 .button-metal:hover {
-  background-color: rgb(245, 245, 245); /* fondo blanco en hover */
-  color: black; /* texto negro en hover */
+  background-color: #111827; /* fondo blanco en hover */
+  color: white; /* texto negro en hover */
   border-radius:  0.5rem; /* mantener bordes redondeados */
-  border-image: rgb(245, 245, 245) 1; /* mantener borde blanco */
-  border-color: rgb(245, 245, 245);
+  border-image: #111827; /* mantener borde blanco */
+  border-color: #111827;
 }
 
 /* Documentation link --------------------------------------------------------*/

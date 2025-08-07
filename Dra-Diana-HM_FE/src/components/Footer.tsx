@@ -7,7 +7,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-black border-t border-gray-800 py-6 text-center text-sm select-none">
+    <footer className="bg-gray-900 border-t border-gray-800 py-6 text-center text-sm select-none">
       <p className="mb-1 text-white">
         © {new Date().getFullYear()}{' '}
         <span
@@ -19,7 +19,15 @@ const Footer = () => {
         — {t('footer.rights')}
       </p>
       <p className="text-white font-medium flex justify-center items-center gap-1 select-text">
-        {t('footer.designed')}<strong className="bg-gradient bg-clip-text text-transparent">{DEVELOPER_NAME}</strong>{' '}
+        {t('footer.designed')}
+        <a
+          href="https://www.metodical.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gradient bg-clip-text text-transparent font-semibold hover:underline"
+        >
+          {DEVELOPER_NAME}
+        </a>
         <span role="img" aria-label="heart" className="drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]">
           ❤️
         </span>

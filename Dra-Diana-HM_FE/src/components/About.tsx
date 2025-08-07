@@ -49,7 +49,7 @@ const About = () => {
           <p className="text-lg leading-relaxed mt-4 text-metallic text-justify">
             {t('about.paragraph5')}{' '}
             <a
-              href="https://www.linkedin.com/in/catalina-hernandez-mejia"
+              href="https://www.instagram.com/odontologia_dianahernandez/?hl=es-la"
               target="_blank"
               rel="noopener noreferrer"
             >
