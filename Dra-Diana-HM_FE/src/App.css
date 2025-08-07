@@ -2,7 +2,7 @@
 /* Global styles for Metodika with dark theme and iridescent metallic highlights */
 
 :root {
-  --gradient-metal: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  --gradient-metal: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
   --bg-dark: #000000;
   --text-metallic: #d1d5db;
 }
@@ -65,14 +65,14 @@ body {
 
 /* Gradient text utility without hover */
 .text-gradient-nohover {
-  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
   background-clip: text;
   color: transparent;
 }
 
 /* Gradient text utility ---------------------------------*/
 .text-gradient {
-  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
   background-clip: text;
   color: transparent;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .text-gradient-black {
-  background: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -206,9 +206,20 @@ body {
 }
 
 
-/* Background gradient utility --------------------------------------------*/
+/* Background gradient no hover utility -----------------------------------*/
 .bg-gradient {
-  background-image: linear-gradient(to right, #60a5fa, #ec4899, #a78bfa);
+  background-image: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
+}
+
+/* Background gradient utility --------------------------------------------*/
+.bg-gradient-hover {
+  background-image: linear-gradient(to right, #1565C0, #1976D2, #42A5F5);
+}
+
+.bg-gradient-hover:hover {
+  background-image: none;
+  background-color: #d1d5db;
+  color: black;
 }
 
 /* Button styling ---------------------------------------------------------*/

@@ -70,11 +70,11 @@ const Services = () => {
               key={index}
               variants={itemVariants}
               className="relative group p-[2px] rounded-3xl 
-                         bg-gradient-to-tr from-[#a78bfa] via-[#ec4899] to-[#60a5fa] 
+                         bg-gradient-nohover
                          shadow-[0_0_15px_rgba(167,139,250,0.3)] hover:shadow-[0_0_25px_rgba(167,139,250,0.5)] transition-shadow duration-300"
             >
               <div className="bg-black rounded-3xl p-8 h-full">
-                <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient bg-clip-text text-transparent">
+                <h4 className="text-xl md:text-2xl font-extrabold mb-4 bg-gradient-hover bg-clip-text text-transparent">
                   {t(titleKey)}
                 </h4>
                 <p className="text-gray-300 text-base leading-relaxed">

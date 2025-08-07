@@ -44,7 +44,7 @@ const KeywordCarousel = () => {
             <div
               className="border-black text-2xl text-gradient-black sm:text-4xl font-extrabold whitespace-nowrap transition-transform duration-300 hover:scale-105"
               style={{
-                background: 'linear-gradient(90deg, #a78bfa, #f472b6, #60a5fa)',
+                background: '.text-gradient-nohover',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 cursor: 'default',
