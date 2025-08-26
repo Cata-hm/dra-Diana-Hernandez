@@ -80,7 +80,7 @@ const ToolsCarousel = () => {
     <div className="overflow-hidden relative">
       <div
         ref={containerRef}
-        className="flex space-x-4 cursor-grab select-none hide-scrollbar"
+        className="flex space-x-1 cursor-grab select-none hide-scrollbar"
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
