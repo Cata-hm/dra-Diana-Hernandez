@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoSection: React.FC = () => {
   return (
-    <section className="video-section bg-gray-100">
+    <section className="video-section bg-gray-100 pb-20">
       <video 
         src="/videos/video1.mp4"  // Nota la barra inicial: apunta a public/videos/video1.mp4
         poster="/images/profile4.jpg" // opcional
