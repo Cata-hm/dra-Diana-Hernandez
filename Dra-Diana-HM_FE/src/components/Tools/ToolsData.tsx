@@ -25,4 +25,16 @@ export const toolsData = [
     src: "/images/profile6.jpg",
     alt: "Imagen de perfil 6",
   },
+  {
+    src: "/images/profile7.jpg",
+    alt: "Imagen de perfil 7",
+  },
+  {
+    src: "/images/profile8.jpg",
+    alt: "Imagen de perfil 8",
+  },
+  {
+    src: "/images/profile9.jpg",
+    alt: "Imagen de perfil 9",
+  },
 ];

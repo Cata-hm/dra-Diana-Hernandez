@@ -10,6 +10,7 @@ import Footer from '../components/Footer';
 import Socials from '../components/Socials';
 import KeywordCarousel from '../components/KeyWordCarousel';
 import Tools from '../components/Tools/Tools';
+import VideoSection from '../components/Video';
 
 function MetodikaRouter() {
   return (
@@ -21,6 +22,7 @@ function MetodikaRouter() {
         <KeywordCarousel />
         <Services />
         <Tools />
+        <VideoSection />
         {/* <Testimonials /> */}
         <Contact />
         <Socials />
