@@ -13,7 +13,14 @@ import contactRoutes from './routes/contactRoutes';
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173', // tu local
+    'https://dra-diana-hernandez.vercel.app' // tu frontend
+  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 
 // Rutas
